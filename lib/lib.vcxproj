@@ -87,7 +87,7 @@
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)\bins\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)\..\libs\lbfgs\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)\..\libs\lbfgs\$(Platform)\$(Configuration)\</OutDir>
